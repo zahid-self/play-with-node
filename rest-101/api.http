@@ -1,0 +1,29 @@
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+  "name" : "Mehedi Miraj",
+  "rank": 5
+}
+
+###
+
+GET http://localhost:4000
+
+
+###
+
+GET http://localhost:4000/057a3dcb-d953-43f7-aa66-230792719ca2
+
+###
+PUT http://localhost:4000/64f61ca5-9b31-4865-8156-76394a25e956
+Content-Type: application/json
+
+{
+  "name": "Mehedi Miraz",
+  "rank": 2
+}
+
+###
+
+DELETE http://localhost:4000/057a3dcb-d953-43f7-aa66-230792719ca2
