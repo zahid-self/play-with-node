@@ -8,7 +8,8 @@
   },
   "bin": {
     "node-cli": "./bin/index.js",
-    "scrape": "./bin/scraper.js"
+    "scrape": "./bin/scraper.js",
+    "note": "./bin/notes.js"
   },
   "type": "module",
   "keywords": [],
