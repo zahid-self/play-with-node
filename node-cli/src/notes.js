@@ -17,14 +17,13 @@ export const findAllNotes = async () => {
 }
 
 export const removeNote = async (id) => {
-  const { notes } = await getDB();
+  const notes = await findAllNotes();
   const match = notes.find((note) => note.id === Number(id));
   if (match) {
-    const filterdNote = notes.filter((note) => note.id !== match.id);
-    await saveDB({ notes: filterdNote })
-    return match;
+    const filterNote = notes.filter((note) => note.id !== match.id);
+    await saveDB({ notes: filterNote })
+    return id;
   }
-  return undefined;
 }
 
 

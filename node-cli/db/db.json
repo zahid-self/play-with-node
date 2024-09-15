@@ -7,6 +7,14 @@
         "movie",
         "novel"
       ]
+    },
+    {
+      "id": 1726412598902,
+      "content": "Write test for remove note",
+      "tags": [
+        "test",
+        "jest"
+      ]
     }
   ]
 }
